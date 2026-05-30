@@ -8,6 +8,6 @@ setup(name='namizun_menu',
       py_modules=['main_menu', 'network_submenu', 'monitor', 'udp_submenu', 'display'],
       setup_requires=['wheel'],
       install_requires=['colored~=1.4.4',
-                        'pyfiglet~=0.8.post1',
+                        'pyfiglet~=1.0.4',
                         'prettytable~=3.5.0']
       )
